@@ -1,0 +1,35 @@
+.ResultsCardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@media (min-width: 768px) { 
+    .ResultsCardWrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.resultsCard {
+    width: 300px; 
+    height: auto; 
+    background-color: var(--token-color-colour-background-secondary); 
+    border: 1px solid var(--token-color-colour-border-decorative); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px 10px 30px 10px; 
+    transition: 0.3s;
+}
+
+
+.searchParamsList {
+    display: inline-block;
+    font-size: small;
+}
+
