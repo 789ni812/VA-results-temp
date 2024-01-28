@@ -13,6 +13,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        align-items: stretch;
     }
 }
 
@@ -20,6 +21,7 @@
 
 .resultsCard {
     width: 300px; 
+    min-height: 400px;
     height: auto; 
     background-color: var(--token-color-colour-background-secondary); 
     border: 1px solid var(--token-color-colour-border-decorative); 
