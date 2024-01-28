@@ -16,6 +16,8 @@
     }
 }
 
+
+
 .resultsCard {
     width: 300px; 
     height: auto; 
@@ -31,7 +33,7 @@
 
 .searchParamsList {
     display: inline-block;
-    font-size: small;
+    font-size: 1.2rem;
 }
 
 

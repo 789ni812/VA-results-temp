@@ -13,8 +13,8 @@ export default function Results({
       <h1>Search results</h1>
 
       <Suspense fallback={<Loading />}>
-       <MockedResultsComponent searchParams={searchParams} />
-        {/* <SearchResultsComponent searchParams={searchParams} /> */}
+       {/* <MockedResultsComponent searchParams={searchParams} /> */}
+        <SearchResultsComponent searchParams={searchParams} />
       </Suspense>
     </>
   )
