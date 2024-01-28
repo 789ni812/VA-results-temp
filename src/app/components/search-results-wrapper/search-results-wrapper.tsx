@@ -32,7 +32,6 @@ export default function SearchResultsWrapper({results}: SearchResultsWrapperProp
                 <div className={styles.ResultsCardWrapper}>
                     {filteredHolidays.map((holiday) => (
                         <div key={holiday.hotel.id} className={styles.resultsCard}>
-                            <h2>Star rating: {holiday.hotel.content.starRating}</h2>
                             <ResultsCard holiday={holiday} />
                         </div>
                     ))}

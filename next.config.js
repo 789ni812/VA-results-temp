@@ -26,6 +26,9 @@ const nextConfig = {
 		  },
 		]
 	},
+    images: {
+        domains: ['d3hk78fplavsbl.cloudfront.net'],
+      },
 }
 
 module.exports = withBundleAnalyzer(nextConfig)

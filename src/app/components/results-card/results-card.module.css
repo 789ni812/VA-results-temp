@@ -1,0 +1,13 @@
+.hotelImage {
+    border-radius: 20%;
+}
+
+
+
+.starRating{
+    color: var(--token-color-colour-text-info);
+}
+
+.price {
+    color: var(--token-color-colour-text-info)
+}

@@ -1,32 +1,38 @@
-## Brief / Requirements
-[] Build the 'search results page' which connects to our holiday search API 
 
+Hi VA team, 
+Here is my code test. I tried to touch on lots of different areas of the test.
 
+Results
+Are working and minimal media queries setup for mobile and desktop
 
-[ ] display a list of holidays for a given location and departure date. 
-    [x] Pull in results from the API
-    [ ] style the holiday content
+Filters
+the starRating filter works 
+the price filter does not work
+the hotel facilities filter does not work
 
+I didnt add any style sheet system (I would have used styled components or at least sass) the CSS I created is limited enough to be css.
 
+I hope this give you an idea of my coding style and ability. I would love to hear your feedback.
 
-
-
-
-[ ] Select what data items (example listed below) you think should be included on the page. You can use the [live website](https://www.virginholidays.co.uk) and a holiday search as an example but feel free to change things up. 
-****
-[ ] Add the ability to filter the results by:****
-
-[ ] 1) Price per person
-[ ] 2) Hotel facilities 
-[ ] 3) Star rating
-
-
-
+Thanks
+Stuart
 
 ##################### reference material used #####################
 https://nextjs.org/docs/
 https://developer.mozilla.org/en-US/docs/
+https://dev.to/andyrewlee/how-to-update-an-array-of-objects-in-react-state-3d
+https://www.codevertiser.com/update-javascript-array-of-object/
 
+onchange event for drop down
+https://stackoverflow.com/questions/28868071/onchange-event-using-react-js-for-drop-down
+
+unique values in array
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/Set
+https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/
+
+cypress
+https://docs.cypress.io/api/commands/select
 
 
 ################## ORINGIAL #################
