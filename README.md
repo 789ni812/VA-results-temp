@@ -1,9 +1,11 @@
 ## Brief / Requirements
-[x] Build the 'search results page' which connects to our holiday search API 
+[] Build the 'search results page' which connects to our holiday search API 
 
 
 
 [ ] display a list of holidays for a given location and departure date. 
+    [x] Pull in results from the API
+    [ ] style the holiday content
 
 
 
@@ -11,8 +13,8 @@
 
 
 [ ] Select what data items (example listed below) you think should be included on the page. You can use the [live website](https://www.virginholidays.co.uk) and a holiday search as an example but feel free to change things up. 
-
-[ ] Add the ability to filter the results by:
+****
+[ ] Add the ability to filter the results by:****
 
 [ ] 1) Price per person
 [ ] 2) Hotel facilities 

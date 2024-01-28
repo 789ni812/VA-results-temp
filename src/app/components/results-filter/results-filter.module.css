@@ -1,0 +1,10 @@
+.filterSearchResultsWrapper {
+display:flex;
+align: left;
+    color: green;
+}
+
+.changeFilter {
+    font-size: small; 
+    margin-left: 16px;
+}

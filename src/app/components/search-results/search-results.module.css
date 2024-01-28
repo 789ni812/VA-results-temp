@@ -1,3 +1,4 @@
+
 .ResultsCardWrapper {
     display: flex;
     flex-direction: column;
@@ -33,3 +34,16 @@
     font-size: small;
 }
 
+
+
+.filterByWrapper {
+    width: 300px; 
+    height: auto; 
+    background-color: var(--token-color-colour-background-tertiary); 
+    border: 1px solid var(--token-color-colour-border-decorative); 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px 10px 30px 10px; 
+    transition: 0.3s;
+}
