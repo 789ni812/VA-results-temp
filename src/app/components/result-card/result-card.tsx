@@ -1,4 +1,10 @@
-export default function  ResultsCard ({ holiday }) {
+import { Holiday } from "@/types/booking";
+
+interface ResultCardProps {
+    holiday: Holiday
+}
+
+export default function  ResultsCard ({ holiday }: ResultCardProps) {
     return (
         <ul>
             <li>Total Price: {holiday.totalPrice}</li>
