@@ -37,9 +37,6 @@ export default function ResultsFilter({ onStarRatingChange }: ResultsFilterProp)
         onStarRatingChange(ratingValue);
     };
 
-    console.log("star rating", filterBy.starRating)
-
-
 
     const handleLowPriceRange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newPricePerPerson = Number(e.target.value)
